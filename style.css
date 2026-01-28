@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Flexbox example for future sections */
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Mobile friendly text */
+h2 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
